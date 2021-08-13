@@ -8,8 +8,8 @@ def home(request):
 def products(request):
     return render(request,'accounts/products.html')
 
-def costumer(request):
-    return render(request,'accounts/costumer.html')
+def customer(request):
+    return render(request,'accounts/customer.html')
 
 def contact(request):
     return HttpResponse("Contact page")
